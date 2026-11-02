@@ -378,7 +378,7 @@ if "ga_result" in st.session_state:
     ax.set_xlabel("Generation")
     ax.set_ylabel("Fitness Score")
     ax.set_xlim(1, GENERATIONS)
-    ax.set_ylim(0, 82)
+    ax.set_ylim(50, 82)
     ax.set_xticks(range(0, GENERATIONS + 1, 5))
     ax.grid(True, alpha=0.3)
     ax.legend(loc="lower right")
